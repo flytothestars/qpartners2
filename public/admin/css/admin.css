@@ -1,0 +1,35 @@
+.admin-background {
+    background-image: url('/admin/image/3.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+body,html {
+    height: 100%;
+}
+.form-box {
+    z-index: 99999;
+    margin-top: 100px;
+    opacity: 0.9;
+}
+.form-box .header {
+    background-color: #1F83F9;
+}
+.bg-olive {
+    background-color: #1F83F9 !important;
+}
+.register-box {
+    width: 100%;
+    max-width: 730px;
+    margin-top: 80px;
+}
+.agree-label input, .agree-label label {
+    display: inline-block;
+}
+.bootstrap-select > .dropdown-toggle, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 0px;
+}

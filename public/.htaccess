@@ -1,0 +1,15 @@
+DirectoryIndex index.php
+
+AddDefaultCharset utf-8
+
+Options -Indexes
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+php_value max_execution_time 360
+php_value memory_limit 128M
+php_value display_errors on
